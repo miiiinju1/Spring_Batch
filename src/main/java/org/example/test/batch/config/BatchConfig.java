@@ -2,9 +2,9 @@ package org.example.test.batch.config;
 
 
 import lombok.RequiredArgsConstructor;
-import org.example.test.batch.batch.CustomProcessor;
-import org.example.test.batch.batch.CustomReader;
-import org.example.test.batch.batch.CustomWriter;
+import org.example.test.batch.batch.custom.CustomProcessor;
+import org.example.test.batch.batch.custom.CustomReader;
+import org.example.test.batch.batch.custom.CustomWriter;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.JobParameters;
 import org.springframework.batch.core.JobParametersBuilder;
